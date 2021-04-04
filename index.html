@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+    
+    <div class="jumbotron">
+        <h1 class="display-4">Tic Tac Toe</h1>
+        <p id="game-banner"></p>
+    </div>
+    <div class="restart-game-btn">
+        <button class="btn-lg" id="restart-btn">Restart game!</button>
+    </div>
+    <div class="container" id="game-board">
+        <div class="row">
+            <div class="col game-cell" id="0"></div>
+            <div class="col game-cell" id="1"></div>
+            <div class="col game-cell" id="2"></div>
+        </div>
+        <div class="row">
+            <div class="col game-cell" id="3"></div>
+            <div class="col game-cell" id="4"></div>
+            <div class="col game-cell" id="5"></div>
+        </div>
+        <div class="row">
+            <div class="col game-cell" id="6"></div>
+            <div class="col game-cell" id="7"></div>
+            <div class="col game-cell" id="8"></div>
+        </div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.container {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+}
+
+.restart-game-btn {
+    text-align: center;
+}
+
+#game-banner {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.row {
+    height: 200px;
+}
+
+.col {
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    font-size: 100px;
+    height: 200px;
+    width: 200px;
+}
